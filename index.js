@@ -47,8 +47,7 @@ const catWoman = {
   hands: 0,
   saying: cat.saying,
 };
-const arr = [dog, cat, man, woman, catWoman];
-// ... other objects ...
+const world = [dog, cat, man, woman, catWoman];
 arr.forEach((element) => {
   print(Object.values(element).join(';'));
 });
